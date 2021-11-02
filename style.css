@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.margin {
+    margin-right: 150px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    border-radius: 8px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked + .checkbox {
+    background-color: black;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+button:hover {
+    transition: 1s;
+    background-color:darkblue;
+}
+
+button {
+    color: blanchedalmond;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 40%;
+}
